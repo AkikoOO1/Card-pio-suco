@@ -1,5 +1,5 @@
 # Cardapio-suco
-Esse foi um experimento, para o trabalho de empreendedorismo, tentei praticar o que sei.
+Esse foi um experimento, para o trabalho de empreendedorismo, tentei praticar o que aprendi.
 
 <a href="https://www.flaticon.com/br/stickers-gratis/diversos" title="diversos figurinhas">Diversos figurinhas criadas por Prosymbols Premium - Flaticon</a>
 
