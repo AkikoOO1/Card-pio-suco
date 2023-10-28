@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --smg :'Macondo Swash Caps', cursive;
+    --Tamanho: 'Aguafina Script', cursive;
+    --preço: 'Marck Script', cursive;
+    --quadrato: #DBAD37;
+    --fundo: #86B23E;
+    --borda: #A6A912 , #072209;
+}
+
+.Verde{
+    background-color: var(--fundo);;
+}
+
+.Cabeça{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 20px;
+    justify-content: center;
+}
+
+.copo , .gato{
+    min-inline-size: 15pc;
+    margin-inline: 90px;
+}
+
+.Suco{
+    color: rgba(237, 241, 25, 1);
+    font-family: var(--smg);
+    font-size: 12em;
+    font-weight: 800;
+}
+/**********************************************************************************************************/
+.Frutas{
+    display: flex;
+    margin-left: 19.5px;
+}
+
+.quadrado{
+    position:relative;
+    margin:0 2%;
+    width: 45%; /*Largura*/
+    height: 25pc; /*Altura*/
+    background: linear-gradient(#e6bf15 , #c23c13);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px; /*grossura da borda*/
+    border:groove 15px #631919da; 
+}
+
+.bebidas{
+    font-family: var(--smg);
+    font-size: 119px;
+    font-weight: 700;
+    text-align: justify;
+    text-decoration:underline 12px; /*sublinhado da frase e sua grossura*/
+    padding-top: 0.5em;
+}
+
+.quantidade{
+    order: 1;
+    font-family: var(--Tamanho);
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.preço{
+    order: 2;
+    font-family: var(--preço);
+    font-size: 5.6em;
+    font-weight: 100;
+    padding-left: 5pc;
+    padding-bottom: 10%;
+}
