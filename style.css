@@ -23,9 +23,13 @@
     justify-content: center;
 }
 
-.copo , .gato{
+.cup , .gato{
     min-inline-size: 15pc;
     margin-inline: 90px;
+}
+
+.gato{
+    order: 3;
 }
 
 .Suco{
@@ -33,14 +37,15 @@
     font-family: var(--smg);
     font-size: 12em;
     font-weight: 800;
+    order: 2;
 }
 /**********************************************************************************************************/
-.Frutas{
+.Ru{
     display: flex;
     margin-left: 19.5px;
 }
 
-.quadrado{
+.quadrado{ 
     position:relative;
     margin:0 2%;
     width: 45%; /*Largura*/
@@ -63,7 +68,7 @@
     padding-top: 0.5em;
 }
 
-.quantidade{
+.copo{
     order: 1;
     font-family: var(--Tamanho);
     font-size: 70px;
@@ -75,6 +80,89 @@
     font-family: var(--preço);
     font-size: 5.6em;
     font-weight: 100;
-    padding-left: 5pc;
-    padding-bottom: 10%;
+    padding-left: 2pc;
+    padding-bottom: 7%;
+}
+
+.F{
+    display: flex;
+    margin: 12px;
+}
+
+
+
+
+
+    @media screen and (max-width: 1024px){
+    
+        .Frutas{
+            display: flex;
+            margin: 0 100px;
+            flex-flow: column;
+        }
+
+        .Cabeça{
+            display: flex;
+            flex-direction: row;
+            margin: 20px;
+            justify-content: center;
+        }
+    
+        .cup{
+            display: none;
+        }
+
+        .gato{
+            min-inline-size: 80px;
+            margin-inline: 25px;
+        }
+        
+        .Suco{
+            color: rgba(237, 241, 25, 1);
+            font-family: var(--smg);
+            font-size: 120px;
+            font-weight: 800;
+        }
+
+.quadrado{
+    position:relative ;
+    margin:10px; /*espaço entre o cabeçario com o restante*/
+    width: 70%;
+    height: 30%; /*Altura*/
+    background: linear-gradient(#e6bf15 , #c23c13);
+    border-radius: 30px; /*grossura da borda*/
+    border:groove 15px #631919da; 
+    display: flex;
+    flex-direction: column; /*Ordem de dentro do quadrato*/
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bebidas{
+    font-family: var(--smg);
+    font-size: 75px;
+    font-weight: 700;
+    text-align: justify;
+    text-decoration:underline 5px; /*sublinhado da frase e sua grossura*/
+    padding-top: 1px;
+}
+
+.copo{
+    order: 1;
+    font-family: var(--Tamanho);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.preço{
+    order: 2;
+    font-family: var(--preço);
+    font-size: 50px;
+    font-weight: 100;
+    padding-left: 22px;
+    padding-bottom: 7%;
+}
+
+
 }
